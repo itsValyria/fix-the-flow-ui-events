@@ -151,23 +151,46 @@ a:nth-of-type(3) {
 
 /* The (7) */
 
-/* .animation__the {
+a:nth-of-type(7) {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  vertical-align: middle;
+}
 
-} */
+
+.kopje-thee {
+  display: none;
+  position: relative;
+  top: -3px;
+}
 
 /* Flow (8) */
 
-/* .animation__flow {
-
+/* a:nth-of-type(8) {
+  
 } */
 
 /* User (9) */
 
-/* .animation__user {
+.emoji {
+  display: none;
+}
 
-} */
+.active {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
 
 /* Interface (10) */ 
+
+a:nth-of-type(10) {
+  transition: 300ms ease-in-out;
+}
 
 .animation__interface {
   transform: scale(-1, 1);

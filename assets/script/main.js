@@ -62,7 +62,7 @@ function sprintFiveHandler() {
 
 // Fix (6)
 
-const fixInteraction = document.querySelector('nth-of-type(6)');
+const fixInteraction = document.querySelector('a:nth-of-type(6)');
 
 fixInteraction.addEventListener('click', fixHandler);
 
@@ -72,18 +72,19 @@ function fixHandler() {
 
 // The (7)
 
-const theInteraction = document.querySelector('nth-of-type(7)');
+const theInteraction = document.querySelector('a:nth-of-type(7)');
+const kopjeThee = document.querySelector('.kopje-thee');
 
 theInteraction.addEventListener('click', theHandler);
 
 function theHandler() {
-  theInteraction.classList.toggle('animation__the');
+  kopjeThee.classList.toggle('active');
 }
 
 
 // Flow (8)
 
-const flowInteraction = document.querySelector('nth-of-type(8)');
+const flowInteraction = document.querySelector('a:nth-of-type(8)');
 
 flowInteraction.addEventListener('click', flowHandler);
 
@@ -94,22 +95,25 @@ function flowHandler() {
 
 // User (9)
 
-const userInteraction = document.querySelector('nth-of-type(9)');
+const userInteraction = document.querySelector('a:nth-of-type(9)');
+const emoji = document.querySelector('.emoji');
+const text = document.querySelector('.text');
 
 userInteraction.addEventListener('click', userHandler);
 
 function userHandler() {
-  userInteraction.classList.toggle('animation__user')
+  emoji.classList.toggle('active');
+  text.classList.toggle('hidden');
 }
 
 
-// Interaction (10)
+// Interface (10)
 
-const interactionInteraction = document.querySelector('nth-of-type(10)');
+const interactionInterface = document.querySelector('a:nth-of-type(10)');
 
-interactionInteraction.addEventListener('click', interactionHandler);
+interactionInterface.addEventListener('click', interfaceHandler);
 
-function interactionHandler() {
-  interactionInteraction.classList.toggle('animation__interaction')
+function interfaceHandler() {
+  interactionInterface.classList.toggle('animation__interface');
 }
 

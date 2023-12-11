@@ -60,4 +60,56 @@ function sprintFiveHandler() {
   developmentInteraction.classList.toggle('animation__sprint-five');
 }
 
-// 
+// Fix (6)
+
+const fixInteraction = document.querySelector('nth-of-type(6)');
+
+fixInteraction.addEventListener('click', fixHandler);
+
+function fixHandler() {
+  fixInteraction.classList.toggle('animation__fix');
+}
+
+// The (7)
+
+const theInteraction = document.querySelector('nth-of-type(7)');
+
+theInteraction.addEventListener('click', theHandler);
+
+function theHandler() {
+  theInteraction.classList.toggle('animation__the');
+}
+
+
+// Flow (8)
+
+const flowInteraction = document.querySelector('nth-of-type(8)');
+
+flowInteraction.addEventListener('click', flowHandler);
+
+function flowHandler() {
+  flowInteraction.classList.toggle('animation__flow');
+}
+
+
+// User (9)
+
+const userInteraction = document.querySelector('nth-of-type(9)');
+
+userInteraction.addEventListener('click', userHandler);
+
+function userHandler() {
+  userInteraction.classList.toggle('animation__user')
+}
+
+
+// Interaction (10)
+
+const interactionInteraction = document.querySelector('nth-of-type(10)');
+
+interactionInteraction.addEventListener('click', interactionHandler);
+
+function interactionHandler() {
+  interactionInteraction.classList.toggle('animation__interaction')
+}
+

@@ -169,6 +169,6 @@ a:nth-of-type(3) {
 
 /* Interface (10) */ 
 
-/* .animation__interface {
-
-} */
+.animation__interface {
+  transform: scale(-1, 1);
+}

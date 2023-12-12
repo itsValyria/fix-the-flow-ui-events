@@ -139,9 +139,16 @@ a:nth-of-type(3) {
 
 /* Sprint 5 (5) */
 
-/* .animation__sprint-five {
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
 
-} */
+.animation__sprint-five {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) 5;
+}
 
 /* Fix (6) */
 
@@ -167,10 +174,6 @@ a:nth-of-type(7) {
 }
 
 /* Flow (8) */
-
-/* a:nth-of-type(8) {
-  
-} */
 
 @keyframes opacity{
   0%{

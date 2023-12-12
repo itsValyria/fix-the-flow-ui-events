@@ -57,7 +57,7 @@ const sprintFiveInteraction = document.querySelector('a:nth-of-type(5)');
 sprintFiveInteraction.addEventListener('click', sprintFiveHandler);
 
 function sprintFiveHandler() {
-  developmentInteraction.classList.toggle('animation__sprint-five');
+  sprintFiveInteraction.classList.toggle('animation__sprint-five');
 }
 
 // Fix (6)

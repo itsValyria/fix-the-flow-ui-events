@@ -152,9 +152,26 @@ a:nth-of-type(3) {
 
 /* Fix (6) */
 
-/* .animation__fix {
+.animation__fix img {
+  visibility: unset;
+  transform: scale(1);
+  opacity: 1;
+}
 
-} */
+a:nth-of-type(6) {
+  position: relative;
+}
+
+.fix__pleister {
+  width: 32px;
+  transform: scale(6);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 150ms ease-in;
+  visibility: hidden;
+  opacity: 0;
+}
 
 /* The (7) */
 

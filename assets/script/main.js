@@ -128,7 +128,7 @@ interactionCode.addEventListener('click', codeHandler);
 
 function codeHandler() {
   interaction.classList.toggle('jump');
-  frontendInteraction.classList.toggle('animation__frontend');
+  frontendInteraction.classList.add('animation__frontend');
   designInteraction.classList.add('animation__design');
   ampersandInteraction.classList.toggle('animation__ampersand');
   developmentInteraction.classList.toggle('animation__development');
@@ -141,6 +141,7 @@ function codeHandler() {
   interactionInterface.classList.toggle('animation__interface');
 
   setTimeout(function(){
+    frontendInteraction.classList.remove('animation__frontend');
     designInteraction.classList.remove('animation__design');
     sprintFiveInteraction.classList.remove('animation__sprint-five');
     fixInteraction.classList.remove('animation__fix');

@@ -120,3 +120,32 @@ function interfaceHandler() {
   interactionInterface.classList.toggle('animation__interface');
 }
 
+// Code: Absolute Chaos!
+
+const interactionCode = document.querySelector('a:nth-of-type(20)');
+
+interactionCode.addEventListener('click', codeHandler);
+
+function codeHandler() {
+  interaction.classList.toggle('jump');
+  frontendInteraction.classList.toggle('animation__frontend');
+  designInteraction.classList.add('animation__design');
+  ampersandInteraction.classList.toggle('animation__ampersand');
+  developmentInteraction.classList.toggle('animation__development');
+  sprintFiveInteraction.classList.add('animation__sprint-five');
+  kopjeThee.classList.add('active');
+  fixInteraction.classList.add('animation__fix');
+  flowInteraction.classList.toggle('animation__flow');
+  emoji.classList.add('active');
+  text.classList.add('hidden');
+  interactionInterface.classList.toggle('animation__interface');
+
+  setTimeout(function(){
+    designInteraction.classList.remove('animation__design');
+    sprintFiveInteraction.classList.remove('animation__sprint-five');
+    fixInteraction.classList.remove('animation__fix');
+    kopjeThee.classList.remove('active');
+    emoji.classList.remove('active');
+    text.classList.remove('hidden');
+},5000); 
+}

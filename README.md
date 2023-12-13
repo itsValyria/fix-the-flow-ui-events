@@ -1,15 +1,27 @@
 > _Fork_ deze deeltaak en ga aan de slag. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# 🥁 UI Events
+De opdracht waar ik 10 buttons heb geanimeerd door het JavaScript 'click' event te gebruiken!
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Hier een kleine preview...
 
-## Experimenten
-<!-- In de Experimenten beschrijf je wat je per experimnet hebt gedaan en documenteer je de code aan de hand van voorbeelden -->
-<!-- Voeg een mooie poster visual toe 📸 per experiment -->
+<img width="1615" alt="image" src="https://github.com/itsValyria/fix-the-flow-ui-events/assets/76444716/0eaa2f88-08e2-4583-a530-1300f146e7c8">
+
+Meer informatie vind je in de wiki. Navigeer hier onder door!
+
+## 🧭 Navigatie
+
+### Github Pages
+> [🔨 De Site](https://itsvalyria.github.io/fix-the-flow-ui-events/)
+
+### 🏠 Home
+
+> [🏠 Home](https://github.com/itsValyria/fix-the-flow-ui-events/wiki/Home)
+
+### 🌱 Dev Lifecycle
+
+> [✍🏼 Schetsen](https://github.com/itsValyria/fix-the-flow-ui-events/wiki/%E2%9C%8F%EF%B8%8F-Schetsen) <br>
+> [🏗️ Bouwen](https://github.com/itsValyria/fix-the-flow-ui-events/wiki/%F0%9F%8F%97%EF%B8%8F-Bouwen)
 
 ## Licentie
 
